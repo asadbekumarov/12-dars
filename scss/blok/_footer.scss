@@ -1,0 +1,71 @@
+@use "./constants" as *;
+footer {
+  padding-top: 98px;
+//   padding-bottom: 141px;
+  background-image: url("../../images/footer_img/IMAGE.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .footer__section__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    .list {
+      display: flex;
+      justify-content: space-between;
+      max-width: 700px;
+      width: 100%;
+      ul {
+        li {
+          padding-bottom: 12px;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          color: $colorWhite;
+        }
+        li:first-child {
+          color: $colorWhite;
+          opacity: 50%;
+        }
+      }
+    }
+    h3 {
+      font-family: Roboto;
+      font-size: 29px;
+      font-weight: 400;
+      line-height: 34.42px;
+      color: $colorWhite;
+    }
+    p {
+      margin-top: 18px;
+      max-width: 286px;
+      color: $colorWhite;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    input {
+      margin-top: 29px;
+      width: 100%;
+      padding: 18px 16px 14px 16px;
+      border-radius: 10px;
+      border: none;
+    }
+    .p:last-child {
+      margin-top: 25px;
+      max-width: 259px;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: $colorWhite;
+    }
+  }
+  .icon {
+    display: flex;
+    justify-content: end;
+    padding-top: 96px;
+    padding-bottom: 21px;
+  }
+}
