@@ -1,0 +1,92 @@
+@use "./constants" as *;
+.move__section {
+  padding-top: 68px;
+  padding-bottom: 73px;
+  background-color: $colorGray;
+  .move__section__content {
+    h2 {
+      font-family: Roboto;
+      font-size: 67px;
+      font-weight: 400;
+      line-height: 66.75px;
+      color: $colorBlack;
+    }
+    p {
+      padding-top: 27px;
+      margin-bottom: 48px;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24.82px;
+      color: $colorBlack;
+    }
+    .cards {
+      display: flex;
+      justify-content: space-evenly;
+      .move__card {
+        background-color: $colorWhite;
+        border-radius: 16px;
+        padding-bottom: 32px;
+        img {
+          padding: 67px 24px 0 24px;
+        }
+        .price {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          p {
+            padding: 0 0 0 24px;
+            margin: 0;
+            font-family: Roboto;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 21.6px;
+            color: $colorBlack;
+          }
+          button {
+            padding: 1px 10px 1px 10px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $colorBlue;
+            background-color: $colorGray;
+            border-radius: 16px;
+            border: none;
+          }
+        }
+        h6 {
+          padding: 39px 0 0 24px;
+          font-family: Roboto;
+          font-size: 29px;
+          font-weight: 400;
+          line-height: 34.42px;
+          color: $colorBlack;
+        }
+        p {
+          padding: 0 0 0 24px;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21.6px;
+          color: $colorBlack;
+        }
+        .see {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          margin: 0 0 0 24px;
+          padding: 22px 37px 23px 39px;
+          border-radius: 999px;
+          border: 1px solid #2e2c34;
+          background: transparent;
+        }
+        .see:hover {
+          background-color: $colorGray;
+          transition: all 0.2s linear;
+          scale: 1.05;
+        }
+      }
+    }
+  }
+}
