@@ -1,38 +1,46 @@
 @use "./constants" as *;
-.how__section__content {
-  margin-top: 68px;
-  h2 {
-    font-family: Roboto;
-    font-size: 67px;
-    font-weight: 400;
-    line-height: 66.75px;
-    color: $colorBlack;
-  }
-  ol {
-    margin-top: 71px;
-    li {
+.how__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .how__section__content {
+    margin-top: 68px;
+    h2 {
       font-family: Roboto;
-      font-size: 28px;
+      font-size: 67px;
       font-weight: 400;
-      line-height: 34.42px;
+      line-height: 66.75px;
       color: $colorBlack;
     }
-  }
-  button {
-    margin-top: 51px;
-    padding: 20px 51px 23px 51px;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 18.34px;
-    border-radius: 34px;
-    border: none;
-    background-color: $colorBlue;
-    color: $colorWhite;
-  }
-  button:hover {
-    background-color: #5b26e1;
-    transition: all 0.2s linear;
-    scale: 1.03;
+    ol {
+      margin-top: 71px;
+      list-style-position: inside;
+      li {
+        list-style-position: inside;
+        padding-bottom: 24px;
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34.42px;
+        color: $colorBlack;
+      }
+    }
+    button {
+      margin-top: 51px;
+      padding: 20px 51px 23px 51px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 18.34px;
+      border-radius: 34px;
+      border: none;
+      background-color: $colorBlue;
+      color: $colorWhite;
+    }
+    button:hover {
+      background-color: #5b26e1;
+      transition: all 0.2s linear;
+      scale: 1.03;
+    }
   }
 }
