@@ -1,0 +1,42 @@
+@use "./constants" as *;
+.header__section__content {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    li {
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 18.34px;
+      color: $colorWhite;
+      cursor: pointer;
+    }
+    li:hover {
+      transition: all 0.2s linear;
+      scale: 1.1;
+    }
+    button {
+      padding: 11px 51px 12px 51px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 18.34px;
+      border-radius: 28px;
+      border: none;
+      background-color: $colorBlue;
+      color: $colorWhite;
+    }
+    button:hover {
+      background-color: #5b26e1;
+      transition: all 0.2s linear;
+      scale: 1.03;
+    }
+  }
+}

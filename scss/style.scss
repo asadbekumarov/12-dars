@@ -1,0 +1,40 @@
+@use "./blok/header";
+@use "./blok/hero";
+@use "./blok/how";
+@use "./blok/move";
+@use "./blok/just";
+@use "./blok/berlin";
+@use "./blok/youre";
+@use "./blok/want";
+@use "./blok/what";
+@use "./blok/footer";
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+ol {
+  li {
+    list-style: decimal;
+  }
+}
+.img {
+  background-image: url("../../images/header_img/IMAGE.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
