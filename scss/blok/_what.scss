@@ -1,0 +1,52 @@
+@use "./constants" as *;
+.want__section {
+  padding-top: 100px;
+  padding-bottom: 96px;
+  background-color: $colorGray;
+  .want__section__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      max-width: 235px;
+      font-family: Roboto;
+      font-size: 67px;
+      font-weight: 400;
+      line-height: 66.75px;
+      color: $colorBlack;
+    }
+    button {
+      margin-top: 53px;
+      padding: 12px 32px 11px 44px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      color: $colorBlack;
+      border-radius: 999px;
+      border: 1px solid #2e2c34;
+      background: transparent;
+    }
+    button:hover {
+      background-color: $colorWhite;
+      transition: all 0.2s linear;
+      scale: 1.05;
+    }
+    ul {
+      li {
+        padding-bottom: 45px;
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24.82px;
+        color: $colorBlack;
+      }
+    }
+  }
+}
