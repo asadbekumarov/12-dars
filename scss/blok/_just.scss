@@ -6,6 +6,8 @@
   .just__section__content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
     h2 {
       max-width: 426px;
       font-family: Roboto;
@@ -37,5 +39,10 @@
       transition: all 0.2s linear;
       scale: 1.03;
     }
+  }
+}
+@media (max-width: 627px) {
+  img {
+    width: 100%;
   }
 }

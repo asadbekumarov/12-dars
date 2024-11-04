@@ -42,3 +42,12 @@ header {
     }
   }
 }
+
+// RESPANSIVE
+@media (max-width: 797px) {
+  ul {
+    li {
+      display: none;
+    }
+  }
+}

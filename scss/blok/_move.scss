@@ -23,6 +23,8 @@
     .cards {
       display: flex;
       justify-content: space-evenly;
+      gap: 16px;
+      flex-wrap: wrap;
       .move__card {
         background-color: $colorWhite;
         border-radius: 16px;
